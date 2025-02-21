@@ -3,24 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="do list.css">
 </head>
 <body>
-  <div class="weather-app">
-    <h1>   weather-app</h1>
-    <div class="search">
-      <input type="text" id="city-input" placeholder="Enter city name">
-      <button id="search-btn">Search</button>
-    </div>
-    <div class="weather-info">
-      <h2 id="city-name">City Name</h2>
-      <p id="temperature">Temperature: --°C</p>
-      <p id="condition">Condition: --</p>
-      <p id="humidity">Humidity: --%</p>
-      <p id="wind-speed">Wind Speed: -- km/h</p>
-    </div>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn">Add Task</button>
+    <ul id="taskList"></ul>
   </div>
-  <script src="script.js"></script>
+  <script src="do list.js"></script>
 </body>
 </html>
